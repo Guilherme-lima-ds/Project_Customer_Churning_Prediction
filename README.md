@@ -46,6 +46,9 @@ Quais ferramentas foram usadas?
   - Github
 
 
+Como o problema vai ser solucionado?
+ - 1) Para resolver o problema um projeto de ciencia de dados tem que ser implementado, buscando encontrar o melhor modelo que consiga indentificar o padrão dos clientes churn, para que quando esse pradrão for encontrado em produção possa ser rapidamente solucionado.
+
 
 
 
