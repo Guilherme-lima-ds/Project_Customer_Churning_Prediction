@@ -12,15 +12,15 @@ Visando ajudar a empresa a resolver esse grave problema, um projeto de ciência 
 Churn é uma métrica que indica o quanto a sua empresa perdeu de receita ou clientes, por isso quando.
 
 ## Objetivo do projeto:
-O objetivo e dada as caracteristicas do cliente classificar se ele é churn ou não e também indentificar os padrões dos clientes churn.
+O objetivo e dada as características do cliente, classificar se ele é churn ou não, e também identificar os padrões dos clientes churn.
 
 ## Considerações finais e expectativas do projeto:
 
-Esse e um projeto da saga "Refazendo projetos antigos", procurando pelo meu Github ainda e possivel ter acesso a primeria versão desse projeto da qual na epoca eu não tinha tantos conhecimos de como densenvolver uma boa solução e nem como fazer uma boa indentificação nos padrões dos dados, por isso eu resolvi fazer novamente todos os projetos que eu ja havia feito e esse é um deles.
+Esse e um projeto da saga "Refazendo projetos antigos", procurando pelo meu Github ainda é possível ter acesso à primeira versão desse projeto da qual na época eu não tinha tantos conhecimentos de como desenvolver uma boa solução e nem como fazer uma boa não dentificação nos padrões dos dados, por isso eu resolvi fazer novamente todos os projetos que eu já havia feito e esse é um deles.
 
-Espero também que o fato do cliente ser churn está relacioando com o ele ter cartão de credito, pois geralmente as assinaturas são feitas por ele e quando o cliente não tem essa assinatura muitas vezes e feita por boleto ou outro tipo de pagamento o que pode fazer o cliente ter que se movimentar para pagar a conta fazendo ele se torna mais churn.
+Espero também que o fato do cliente ser churn está relacionado com o ele ter cartão de crédito, pois geralmente as assinaturas são feitas por ele e quando o cliente não tem essa assinatura muitas vezes e feita por boleto ou outro tipo de pagamento, o que pode fazer o cliente ter que se movimentar para pagar a conta fazendo ele se torna mais churn.
 
-Também acredito que a idade impacte no resultado pois os gostos vão mudando ao longo do tempo.
+Também acredito que a idade impacte no resultado, pois os gostos vão mudando ao longo do tempo.
 
 ![image](https://user-images.githubusercontent.com/92899088/193292137-27e8a17a-7e81-4b8a-83e1-da5d78f3349b.png)
 
@@ -47,15 +47,15 @@ Como o problema sera solucionado? o que eu espero no fim? Quais ferramentas fora
 
 
 ### Como o problema vai ser solucionado?
-- 1.Para resolver o problema um projeto de ciencia de dados tem que ser implementado, buscando encontrar o melhor modelo que consiga indentificar o padrão dos clientes churn, para que quando esse pradrão for encontrado em produção possa ser rapidamente solucionado.
-- 2.Também e importante realizar uma serie de validações de hipoteses para que possamos entender os resultados do modelo e saber onde atacar o mal na raiz do problema, não adianta ter apenas a previsão tem que também saber o motivo do porque aquele cliente está se tornando churn e qual o padrão de comportamento dele.
+- 1. Para resolver o problema um projeto de ciência de dados tem que ser implementado, buscando encontrar o melhor modelo que consiga identificar o padrão dos clientes churn, para que quando esse padrão for encontrado em produção possa ser rapidamente solucionado.
+- 2. Também é importante realizar uma série de validações de hipóteses para possamos entender os resultados do modelo e saber onde atacar o mal na raiz do problema, não adianta ter apenas a previsão, tem que também saber o motivo do porquê aquele cliente está se tornando churn e qual o padrão de comportamento dele.
 
 
-## Validação das hipoteses
-Para entender comos clientes se comportam na base de dados, uma serie de hipoteses foram criadas para que com sua validação fosse possivel entender o motivo e o padrão do cliente está se tornando churn, por exemplo no processo de analise de dados, que e um passo antes da validação de hipoteses(Etapa 04 do projeto) percebi que embora o pais frança tenha mais clientes a concentração maior de cliente churn não está lá, pois na verdade o pais com maior quantidade de clientes churn é...
+## Validação das hipóteses
+Para entender como os clientes se comportam na base de dados, uma série de hipóteses foram criadas para que com sua validação fosse possível entender o motivo e o padrão do cliente está se tornando churn, por exemplo, no processo de análise de dados, que e um passo antes da validação de hipóteses(Etapa 04 do projeto) percebi que embora o pais frança tenha mais clientes a concentração maior de cliente churn não está lá, pois, na verdade, o pais com maior quantidade de clientes churn é...
 
-##Resultados do processo de analise
-Essas não são as hipoteses validadas ainda, são apenas uma analise de dados que eu fiz para que pudesse comprender e entender o resultado das hipoteses.
+##Resultados do processo de análise
+Essas não são as hipóteses validadas ainda, são apenas uma análise de dados que eu fiz para que pudesse compreender e entender o resultado das hipóteses.
 
 ![image](https://user-images.githubusercontent.com/92899088/193597244-2f58fe01-4549-425e-8d4f-5f589949882f.png)
 
@@ -117,31 +117,33 @@ FALSA: Como já tínhamos visto nas análises anteriores, o fato do CLIENTE TER 
 
 ![image](https://user-images.githubusercontent.com/92899088/193599639-c73404b9-2d15-4b80-becc-089f8b6d37c1.png)
 
-###Conclusão das analises
+###Conclusão das análises
 
 ![image](https://user-images.githubusercontent.com/92899088/193599830-6f481ee1-1a21-4bb3-8489-dfe5c74440e6.png)
 
 
 
-##Resultados financeiros para a empresa/Perfomance do modelo
-Como os dados não possuem uma variável que representa o quanto o cliente vale para a empresa, fica inviável fazer analises mais aprofundadas do erro, pois nesses casos de classificação a comparação do erro e mais vinha gráfico mesmo, por isso vou me reter a apenas plotar um gráfico comparando o valor real vs previsto. Esse gráfico também vai servir como perfomance do modelo.
+##Resultados financeiros para a empresa/Performance do modelo
+Como os dados não possuem uma variável que representa o quanto o cliente vale para a empresa, fica inviável fazer analises mais aprofundadas do erro, pois nesses casos de classificação a comparação do erro e mais vinha gráfico mesmo, por isso vou me reter a apenas plotar um gráfico comparando o valor real vs previsto. Esse gráfico também vai servir como performance do modelo.
 
 ![image](https://user-images.githubusercontent.com/92899088/193600383-86697a8a-bf06-4226-bda6-f4b444cfd362.png)
 
 
 ##Conclusão final
-O objetivo que eu havia traçado no começo do projeto foi atingido, consegui criar um modelo que dada as caracteristicas do cliente me retornasse se ele iria ser churn ou não, agora o diretor entender o que faz o cliente ser churn(as caracteristicas dele) e ainda tem uma previsão se aquele cliente vai ser churn ou não, com essas informações ele com certeza vai tomar decisões melhores e interpretar melhor o resultado do modelo pois como o modelo está sugestivo a erro a pessoa que esta usando precisa ter bom senso, por isso o processo de analise e validação das hipoteses.
+O objetivo que eu havia traçado no começo do projeto foi atingido, consegui criar um modelo que dada as características do cliente me retornasse se ele vai ser churn ou não, agora o diretor entende o que faz o cliente ser churn(as características dele) e ainda tem uma previsão se aquele cliente vai ser churn ou não, com essas informações ele com certeza vai tomar decisões melhores e interpretar melhor o resultado do modelo, pois como o modelo está sugestivo a erro a pessoa que esta usando precisa ter bom senso, por isso o processo de análise e validação das hipóteses.
 
 ##Próximos passos:
-Com certeza ainda tem muitos pontos a serem melhorados no projeto, um exemplo bem classico e a quantidade e qualidade dos dados, informações de quanto aquele cliente render para a empresa, informações sobre ele mais detalhadas podem com certeza melhorar a perfomance do modelo, pois ele vai ser o grupo que aquela pessoa pertence logo de cara e assim conseguindo ter uma melhor perfomance em produção.
+Com certeza ainda tem muitos pontos a serem melhorados no projeto, um exemplo bem clássico e a quantidade e qualidade dos dados, informações de quanto aquele cliente render para a empresa, informações sobre ele mais detalhadas podem com certeza melhorar a performance do modelo, porque ele vai ser o grupo que aquela pessoa pertence logo de cara e assim conseguindo ter uma melhor performance em produção.
 
-Esse e outro ponto importante, o modelo ainda poderia ser colocado em produção para que pudessemos ter um resultado real do erro dele, pois com os dados de teste ele pode está se saindo bem, mas e na pratica? esse seria um passso importante.
+Esse e outro ponto importante, o modelo ainda poderia ser colocado em produção para que pudéssemos ter um resultado real do erro dele, pois com os dados de teste ele pode está se saindo bem, mas e, na prática? Esse seria um passo importante.
 
 
 ##Fonte de dados:
+https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
 
 
 
+##Obrigado!!!
 
 
 
