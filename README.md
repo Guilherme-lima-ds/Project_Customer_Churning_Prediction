@@ -63,11 +63,13 @@ Essas não são as hipoteses validadas ainda, são apenas uma analise de dados q
 Agora que temos uma visão geral de como os dados se comportam, podemos validar as hipoteses de negocio(Todos os graficos estão no arquivo Etapa_04 do projeto)
 
 H1:Os homens recebem 30% mais que as mulheres em todas os países.
+
 FALSA: Os homens GANHAM 20% MAIS QUE AS MULHERES CONSIDERANDO TODOS OS PAISES.
 
 ![image](https://user-images.githubusercontent.com/92899088/193597798-c8133ba5-0c2e-4f0f-a2de-a904f47fcd54.png)
 
 H2:O salário do cliente aumenta 10% com o passar de seus anos.
+
 FALSA: O salário do cliente tem altas e baixa conforme os anos se passando, essas altas passam de 10% e as baixas também.
 
 ![image](https://user-images.githubusercontent.com/92899088/193597981-cd1e4865-506b-4455-bde6-3ea80dd706e3.png)
@@ -78,6 +80,7 @@ FALSA: O salário do cliente tem altas e baixa conforme os anos se passando, ess
 
 
 H3:A taxa de churn aumenta 15% conforme o cliente vai ficando mais velho.
+
 Verdadeira: Embora a taxa não suba cravadamente 15% ela vai subindo ao passar dos anos e termina com 20%, então conforme O CLIENTE FICA MAIS VELHO MAIS CHURN ELE É
 
 ![image](https://user-images.githubusercontent.com/92899088/193598463-80df86ff-da52-4306-be37-3a7c2f5bf8af.png)
@@ -85,15 +88,58 @@ Verdadeira: Embora a taxa não suba cravadamente 15% ela vai subindo ao passar d
 ![image](https://user-images.githubusercontent.com/92899088/193598562-76dd7ccf-8c78-4583-b33b-11d4c6d5a95b.png)
 
 H4:Os valores de balance dos homens são 5% maior do que os das mulheres.
+
 FALSA: Os homens tem o BALANCE 21% MAIOR QUE OS DAS MULHERES.
+
 ![image](https://user-images.githubusercontent.com/92899088/193598793-f6cbcdd0-f2dc-4311-b7ed-e5eb25f428c2.png)
 
 H5:O número de produtos comprados aumenta 10% com o passar dos anos.
+
 VERDADEIRA O Número de produtos comprados aumenta ao longo dos anos de vida de cliente, claro que não cravado em 10% porém já inicia em 12 e termina com 700%.
 
 ![image](https://user-images.githubusercontent.com/92899088/193598991-3d1dcdc9-03d8-493c-91fb-cc6a36cdb6f1.png)
 
 ![image](https://user-images.githubusercontent.com/92899088/193599137-83866f93-8bf2-48b8-af05-8748255c2950.png)
+
+
+H6:A taxa de churn aumenta 10% quando os clientes não são ativos.
+
+FALSA: Quando o cliente e churn e ativo A TAXA DE CHURN E DE 14%, PORÉM QUANDO O CLIENTE É CHURN E INATIVO A TAXA DE CHURN SOBE PARA 27%, OU SEJA, 27% DOS CLIENTES CHURN NA BASE SÃO CLIENTES INATIVOS.
+
+![image](https://user-images.githubusercontent.com/92899088/193599392-002b95fc-d600-45b2-9d7e-2803cb9300d7.png)
+
+![image](https://user-images.githubusercontent.com/92899088/193599505-bef53b26-4341-4d62-add4-336f1e9e2f62.png)
+
+H7:A taxa de churn aumenta 10% quando os clientes não têm cartão.
+FALSA: Como já tínhamos visto nas análises anteriores, o fato do CLIENTE TER OU NÃO TER CARTÃO DE CRÉDITO NÃO IMPACTA EM ELE SER CHURN.
+
+![image](https://user-images.githubusercontent.com/92899088/193599599-d48d057c-463c-4d66-a711-5a55a360eff5.png)
+
+![image](https://user-images.githubusercontent.com/92899088/193599639-c73404b9-2d15-4b80-becc-089f8b6d37c1.png)
+
+###Conclusão das analises
+
+![image](https://user-images.githubusercontent.com/92899088/193599830-6f481ee1-1a21-4bb3-8489-dfe5c74440e6.png)
+
+
+
+##Resultados financeiros para a empresa/Perfomance do modelo
+Como os dados não possuem uma variável que representa o quanto o cliente vale para a empresa, fica inviável fazer analises mais aprofundadas do erro, pois nesses casos de classificação a comparação do erro e mais vinha gráfico mesmo, por isso vou me reter a apenas plotar um gráfico comparando o valor real vs previsto. Esse gráfico também vai servir como perfomance do modelo.
+
+![image](https://user-images.githubusercontent.com/92899088/193600383-86697a8a-bf06-4226-bda6-f4b444cfd362.png)
+
+
+##Conclusão final
+O objetivo que eu havia traçado no começo do projeto foi atingido, consegui criar um modelo que dada as caracteristicas do cliente me retornasse se ele iria ser churn ou não, agora o diretor entender o que faz o cliente ser churn(as caracteristicas dele) e ainda tem uma previsão se aquele cliente vai ser churn ou não, com essas informações ele com certeza vai tomar decisões melhores e interpretar melhor o resultado do modelo pois como o modelo está sugestivo a erro a pessoa que esta usando precisa ter bom senso, por isso o processo de analise e validação das hipoteses.
+
+##Próximos passos:
+Com certeza ainda tem muitos pontos a serem melhorados no projeto, um exemplo bem classico e a quantidade e qualidade dos dados, informações de quanto aquele cliente render para a empresa, informações sobre ele mais detalhadas podem com certeza melhorar a perfomance do modelo, pois ele vai ser o grupo que aquela pessoa pertence logo de cara e assim conseguindo ter uma melhor perfomance em produção.
+
+Esse e outro ponto importante, o modelo ainda poderia ser colocado em produção para que pudessemos ter um resultado real do erro dele, pois com os dados de teste ele pode está se saindo bem, mas e na pratica? esse seria um passso importante.
+
+
+##Fonte de dados:
+
 
 
 
