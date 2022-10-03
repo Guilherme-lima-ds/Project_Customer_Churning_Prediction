@@ -132,7 +132,7 @@ Como os dados não possuem uma variável que representa o quanto o cliente vale 
 ## Conclusão final
 O objetivo que eu havia traçado no começo do projeto foi atingido, consegui criar um modelo que dada as características do cliente me retornasse se ele vai ser churn ou não, agora o diretor entende o que faz o cliente ser churn(as características dele) e ainda tem uma previsão se aquele cliente vai ser churn ou não, com essas informações ele com certeza vai tomar decisões melhores e interpretar melhor o resultado do modelo, pois como o modelo está sugestivo a erro a pessoa que esta usando precisa ter bom senso, por isso o processo de análise e validação das hipóteses.
 
-##Próximos passos:
+## Próximos passos:
 Com certeza ainda tem muitos pontos a serem melhorados no projeto, um exemplo bem clássico e a quantidade e qualidade dos dados, informações de quanto aquele cliente render para a empresa, informações sobre ele mais detalhadas podem com certeza melhorar a performance do modelo, porque ele vai ser o grupo que aquela pessoa pertence logo de cara e assim conseguindo ter uma melhor performance em produção.
 
 Esse e outro ponto importante, o modelo ainda poderia ser colocado em produção para que pudéssemos ter um resultado real do erro dele, pois com os dados de teste ele pode está se saindo bem, mas e, na prática? Esse seria um passo importante.
