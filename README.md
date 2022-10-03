@@ -117,19 +117,19 @@ FALSA: Como já tínhamos visto nas análises anteriores, o fato do CLIENTE TER 
 
 ![image](https://user-images.githubusercontent.com/92899088/193599639-c73404b9-2d15-4b80-becc-089f8b6d37c1.png)
 
-###Conclusão das análises
+### Conclusão das análises
 
 ![image](https://user-images.githubusercontent.com/92899088/193599830-6f481ee1-1a21-4bb3-8489-dfe5c74440e6.png)
 
 
 
-##Resultados financeiros para a empresa/Performance do modelo
+## Resultados financeiros para a empresa/Performance do modelo
 Como os dados não possuem uma variável que representa o quanto o cliente vale para a empresa, fica inviável fazer analises mais aprofundadas do erro, pois nesses casos de classificação a comparação do erro e mais vinha gráfico mesmo, por isso vou me reter a apenas plotar um gráfico comparando o valor real vs previsto. Esse gráfico também vai servir como performance do modelo.
 
 ![image](https://user-images.githubusercontent.com/92899088/193600383-86697a8a-bf06-4226-bda6-f4b444cfd362.png)
 
 
-##Conclusão final
+## Conclusão final
 O objetivo que eu havia traçado no começo do projeto foi atingido, consegui criar um modelo que dada as características do cliente me retornasse se ele vai ser churn ou não, agora o diretor entende o que faz o cliente ser churn(as características dele) e ainda tem uma previsão se aquele cliente vai ser churn ou não, com essas informações ele com certeza vai tomar decisões melhores e interpretar melhor o resultado do modelo, pois como o modelo está sugestivo a erro a pessoa que esta usando precisa ter bom senso, por isso o processo de análise e validação das hipóteses.
 
 ##Próximos passos:
@@ -138,7 +138,7 @@ Com certeza ainda tem muitos pontos a serem melhorados no projeto, um exemplo be
 Esse e outro ponto importante, o modelo ainda poderia ser colocado em produção para que pudéssemos ter um resultado real do erro dele, pois com os dados de teste ele pode está se saindo bem, mas e, na prática? Esse seria um passo importante.
 
 
-##Fonte de dados:
+## Fonte de dados:
 https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
 
 
